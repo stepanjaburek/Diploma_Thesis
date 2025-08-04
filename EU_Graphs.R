@@ -13,8 +13,7 @@ library(data.table)
 # Data
 #---------------------------------
 
-data<-fread("eu_mentions_data.csv")
-
+write.csv(data,"eu_data_with_mentions.csv")
 
 #------------------------------------------
 # filter parties by number of eu mentions
@@ -467,4 +466,5 @@ ggplot(df_props, aes(x = Stance, y = prop, fill = Frame)) +
         axis.title = element_text(size = 16),
         title = element_text(size = 16),
         legend.text = element_text(size = 12))
+
 
