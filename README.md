@@ -6,9 +6,9 @@ Repository for a full reproduction of the NLP and statistical analyses in my dip
 
 This should get you all the way step by step from raw data to all the figures and results in the thesis
 
-Dataset needed can be gathered here: https://doi.org/10.17605/OSF.IO/RFMXC
+Datasets needed can be gathered here: https://doi.org/10.17605/OSF.IO/RFMXC. It should run with the same names of datasets
 
-It should run with the same name of datasets
+Step-by-step streamline:
 
 1. EU_Control_Variables
 
