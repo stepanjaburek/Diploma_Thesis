@@ -10,7 +10,7 @@ Datasets needed can be gathered here: https://doi.org/10.17605/OSF.IO/RFMXC. It 
 
 Step-by-step streamline:
 
-1. EU_Control_Variables
+1. EU_Control_Variables.R
 
 2. EU_Regex_KWIC_Comp_Text_Analysis.R
 
