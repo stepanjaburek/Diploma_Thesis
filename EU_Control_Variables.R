@@ -385,4 +385,5 @@ data <- data %>% dplyr::select(-1:-2)
 data <- left_join(data, inflation, by = c('month' = 'Month'))
 
 
-write.csv(data,"eu_thesis_data.csv")
+write.csv(data,"eu_data.csv")
+
