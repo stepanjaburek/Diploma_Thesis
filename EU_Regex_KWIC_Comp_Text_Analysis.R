@@ -11,7 +11,7 @@ library(data.table)
 # Data
 #---------------------------------
 
-data<-fread("base_czech_parliamentary_speeches_data.csv")
+data<-fread("eu_data.csv")
 
 data<-data %>% filter(chair==0) # without chairs
 
@@ -142,7 +142,7 @@ sum(data$ecj_mentions)
 data$eu_institutions_mentions <- str_count(data$text, regex(pattern_eu_institutions))
 sum(data$eu_institutions_mentions)
 
-write.csv(data,"eu__mentions_data.csv")
+write.csv(data,"eu_data_with_mentions.csv")
 #############################################################xx
 ##### Now we move to key words in context (KWIC) extraction 
 
@@ -227,4 +227,5 @@ write.csv(kwic_contexts, "eu_institutions.csv")
 
 ##################################
 # SWITCH TO PYTHON FOR MACHINE TRANSLATION AND NATURAL LANGUAGE INFERENCE
+
 ##################################
